@@ -20,6 +20,7 @@
     intro/install_usbdriver
     intro/open_download_1stexample
     intro/debug_with_serial
+    intro/debug_with_serial
 
 .. toctree::
     :caption: 使用LinkIoT板载资源
