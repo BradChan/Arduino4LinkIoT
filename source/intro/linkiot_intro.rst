@@ -1,7 +1,7 @@
 .. _linkiot_intro:
 
 ======================
-LinkIoT简介 (`购买LinkIoT`_)
+LinkIoT简介
 ======================
 
 LinkIoT采用240MHz双核SoC(片上系统)——ESP32作为核心，并配置大容量ROM和SRAM，以及1.13寸彩色LCD和

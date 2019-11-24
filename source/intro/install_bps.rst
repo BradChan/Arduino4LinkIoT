@@ -4,36 +4,96 @@
 安装LinkIoT板级支持包(BSP)
 ==========================
 
-编程圆模式
-++++++++++++++++++++
+在前一节中，我们已经安装好Arduino IDE，本节我们将要配置Arduino IDE并安装LinkIoT的板级支持包。
 
-编程圆支持MakceCode模式和CircuitPython模式，另外还有一个Bootlooder模式。
-将编程圆通过USB插上电脑，当磁盘名称为CPXR1BOOT时，即为Bootloader模式。
+增加LinkIoT的管理器网址
+=======================
 
-.. image:: ../_static/intro/mode/cpxr1boot_drive.png
+打开Arduino IDE的“首选项”，并编辑“开发板管理器网址”栏目的内容，将下面的网址输入(复制-粘贴)到该栏目:
 
-当磁盘名称为CIRCUITPY时，为CircuitPython模式，也就是我们使用Python编程模式。
+https://www.ezaoyun.com:8888/hardware/linkiot/package_linkiot_index.json
 
-.. image:: ../_static/intro/mode/circuitpy_drive.png
+.. image:: ../_static/images/install_bps/addBoardWebpage1.jpeg
+    :scale: 60%
+    :align: center 
 
-如果编程圆已经安装有CircuitPython固件，那么可以通过编程圆reset按钮来切换Bootlooder模式和CircuitPython模式，单击切换成CircuitPython模式或者重启运行Python程序，
-双击切换成Bootloader模式。
+如果已经在使用其他Arduino开发板，只是将新增一行，不必覆盖其他开发板管理器网址：
 
+.. image:: ../_static/images/install_bps/addBoardWebpage2.jpeg
+    :scale: 60%
+    :align: center 
 
-安装或升级CircuitPython固件
-++++++++++++++++++++++++++++++
-如果编程圆未安装有CircuitPython固件或需要升级CircuitPython固件版本，可以通过Bootloader模式（即磁盘名称为“CPXR1BOOT”时），下载CircuitPython.uf2固件并拖到该磁盘即可。
+安装LinkIoT板级支持包
+===================
 
-.. note::  `CircuitPython下载`_ 
+为Arduino IDE配置好LinkIoT的管理器网址之后，我们可以正式开始安装LinkIoT的板级支持包。
+首先，我们需要打开Arduino IDE的“工具” -> “开发板xx” -> "开发板管理器"窗口：
 
-.. _CircuitPython下载: http://www.hibottoy.com:8080/static/install/pc/windows/HiiBotCircle/circuitpython.uf2
+.. image:: ../_static/images/install_bps/boardManager1.jpeg
+    :scale: 50%
+    :align: center 
 
-升级Bootloader固件
-++++++++++++++++++++
-如果有必要更新Bootloader固件，可以通过Bootloader模式，下载“cpxr1_bootloader.uf2”固件并拖到该磁盘就可完成升级
+每次打开“开发板管理器”窗口时，Arduino IDE都会创建可用开发板的索引。这一步Arduino IDE需要下载一些文件，
+因此需要你耐心等待片刻(等待时间取决于网速)。
 
-.. note:: `cpxr1_bootloader下载`_ 
+.. image:: ../_static/images/install_bps/boardManager2.jpeg
+    :scale: 50%
+    :align: center 
 
-.. _cpxr1_bootloader下载: http://www.hibottoy.com:8080/static/install/pc/windows/HiiBotCircle/cpxr1_bootloader.uf2
+当Arduino IDE创建好可用开发板索引之后，我们可以在开发板搜索栏中输入"LinkIoT"，快速找到这个开发板的板级
+支持包，选择一个版本后，点击安装即可。
 
+.. image:: ../_static/images/install_bps/boardManager3.jpeg
+    :scale: 50%
+    :align: center 
+
+LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由你的网速决定。
+
+.. image:: ../_static/images/install_bps/boardManager4.jpeg
+    :scale: 50%
+    :align: center 
+
+当我们安装完毕后，你将会看到这个开发板的支持包被Arduino IDE标注为“INSTALLED”。
+
+.. image:: ../_static/images/install_bps/boardManager5.jpeg
+    :scale: 50%
+    :align: center 
+
+选择使用LinkIoT板
+===============
+
+当我们将LinkIoT的板级支持包安装完毕后，Arduino IDE的“工具” -> "开发板"列表中将会看到LinkIoT板。
+现在可以选择使用LinkIoT板。
+
+.. image:: ../_static/images/install_bps/SeceltBoard.jpeg
+    :scale: 50%
+    :align: center 
+
+.. note:: 
+   * LinkIoT模块有两种型号：LinkIoT和LinkIoT Pro
+   * LinkIoT Pro = LinkIoT + 8MB PSRAM 
+   （即，LinkIoT Pro比标准的LinkIoT板多8MB PSRAM)
+
+配置LinkIoT (禁用PSRAM)
+===============
+
+由于LinkIoT标准版没有8MB PSRAM，配置选项“PSRAM:”应选择“Disabled”。
+
+.. image:: ../_static/images/install_bps/PSRAMDisable.jpeg
+    :scale: 50%
+    :align: center 
+
+.. note:: 
+    * 虽然LinkIoT标准版没有包含8MB PSRAM，但板上保留有QSPI接口的SRAM芯片焊接位置，如果你确定需要8MB PSRAM，可以自行购买、焊接。
+    * 如果板上没有PSRAM，并将“PSRAM:”选项配置为“Enabled”，Arduino IDE将根据配置选项为应用程序启用PSRAM，这将引起不可预测的错误。
+
+配置LinkIoT Pro (启用PSRAM)
+===============
+
+当我们的应用程序需要更多SRAM时，LinkIoT Pro板自带有8MB PSRAM以满足内存开销。当然，只有我们将该开发板
+的"PSRAM:"选项配置为“Enabled”时才能启用。
+
+.. image:: ../_static/images/install_bps/PSRAMEnable.jpeg
+    :scale: 50%
+    :align: center 
 
