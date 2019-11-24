@@ -43,13 +43,13 @@ https://www.ezaoyun.com:8888/hardware/linkiot/package_linkiot_index.json
 当Arduino IDE创建好可用开发板索引之后，我们可以在开发板搜索栏中输入"LinkIoT"，快速找到这个开发板的板级
 支持包，选择一个版本后，点击安装即可。
 
-.. image:: ../_static/images/intro/intro/install_bps/boardManager3.jpeg
+.. image:: ../_static/images/intro/install_bps/boardManager3.jpeg
     :scale: 50%
     :align: center 
 
 LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由你的网速决定。
 
-.. image:: ../_static/images/intro/intro/install_bps/boardManager4.jpeg
+.. image:: ../_static/images/intro/install_bps/boardManager4.jpeg
     :scale: 50%
     :align: center 
 
