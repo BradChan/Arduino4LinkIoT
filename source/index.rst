@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 1
    :caption: API and Usage
+    
 
 .. toctree::
     :caption: 快速向导
@@ -64,3 +65,17 @@
     extension/extension_uart
     extension/extension_i2s
     extension/extension_sd
+
+
+.. toctree::
+    :caption: LinkIoT API
+    :numbered:
+
+    linkiotAPI/api_pled
+    linkiotAPI/api_pbtn
+    linkiotAPI/api_lcd
+    linkiotAPI/api_msensor
+    linkiotAPI/api_batvoltage
+    
+
+

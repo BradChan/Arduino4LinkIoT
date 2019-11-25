@@ -16,17 +16,17 @@ LinkIoT的程序下载端口在电脑端也是一个串口设备，使用Arduino
 .. code-block:: 
    :linenos:
 
-    #include <LinkIoT.h>
-    // blink LED
+     #include <LinkIoT.h>
+     // blink LED
 
-    void setup() {
+     void setup() {
         linkIoT.begin();
         linkIoT.TFTBL_Turnoff(); // the TFT LCD not be used in this example
         Serial.begin(115200); // initialize UART0 act as a Serial class device, and set baudrate as 115,200 bps
         Serial.println("demo to blink LED"); // a string with a carriage return character be output to PC  
-    }
+     }
 
-    void loop() {
+     void loop() {
         static uint8_t counter=0;
         linkIoT.LED_Turnon();
         counter++;
@@ -36,7 +36,7 @@ LinkIoT的程序下载端口在电脑端也是一个串口设备，使用Arduino
         linkIoT.LED_Turnoff();
         Serial.println("turn off LED"); // one string are send to PC
         delay(500);
-    }
+     }
 
 我们首先使用"Serial.begin(115200)"语句初始化UART0，并将波特率定义为115200bps，然后从UART0的TxD引脚输出一个字符串给PC。
 在"loop()"循环程序块中，当LED指示灯被点亮时，我们输出三个字符串，分别使用Serial类的"print()"和"println()"两种方法，如此就可以将三个字符串拼成一行显示在PC的串口监视器上；
