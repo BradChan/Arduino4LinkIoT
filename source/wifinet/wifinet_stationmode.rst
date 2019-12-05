@@ -1,6 +1,6 @@
 .. _wifinet_stationmode:
 
 ======================
-WIFI的从站模式 (Station mode)
+WIFI的从站模式(连接到AP热点)
 ======================
 

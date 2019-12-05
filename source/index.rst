@@ -45,9 +45,10 @@
     wifinet/wifinet_stationmode
     wifinet/wifinet_apmode
     wifinet/wifinet_ntp
-    wifinet/wifinet_tcp
     wifinet/wifinet_udp
-    wifinet/wifinet_http
+    wifinet/wifinet_httpclient
+    wifinet/wifinet_httpserver
+    wifinet/wifinet_espnpw
     wifinet/wifinet_mqtt
 
 .. toctree::
@@ -60,11 +61,12 @@
     extension/extension_analoginput
     extension/extension_analogoutput
     extension/extension_pwmoutput
+    extension/extension_freqoutput
     extension/extension_i2c
     extension/extension_spi
     extension/extension_uart
     extension/extension_i2s
-    extension/extension_sd
+    extension/extension_sdtf
 
 
 .. toctree::

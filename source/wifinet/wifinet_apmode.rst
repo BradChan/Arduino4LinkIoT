@@ -1,4 +1,4 @@
-.. _wifinet_intro:
+.. _wifinet_apmode:
 
 =================
 WIFI及其工作模式
