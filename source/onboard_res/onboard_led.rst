@@ -8,6 +8,12 @@
     :scale: 25%
     :align: center
 
+()
+
+.. image:: ../_static/images/onboard_res/onboard_led/usrLED.jpeg
+    :scale: 25%
+    :align: center
+
 我们在 `快速向导的第5章`_ 的示例中已经能够控制LinkIoT板上的可编程LED指示灯闪烁。
 闪烁LED的程序，与"hello world"示例程序很相似。几乎所有高级编程语言的初学者的第一个示例程序都是"Hello World"，几乎所有嵌入式系统的初学者的第一个示例程序都是闪烁LED！
 让LED指示灯亮，延时数百毫秒；让LED指示灯灭，延时数百毫秒。初始化之后，只需要在"循环"程序块中填入几个语句即可实现"嵌入式世界的'Holle World'"效果，表示我们已经进入嵌入式世界。
