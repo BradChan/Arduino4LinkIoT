@@ -78,7 +78,6 @@
     linkiotAPI/api_lcd
     linkiotAPI/api_msensor
     linkiotAPI/api_batvoltage
-    linkiotAPI/api_batvoltage
     
 
 
