@@ -51,6 +51,14 @@
     wifinet/wifinet_espnpw
     wifinet/wifinet_mqtt
 
+
+.. toctree::
+    :caption: BlueTooth
+    :numbered:
+
+    BlueTooth/BlueTooth_intro
+
+
 .. toctree::
     :caption: 扩展接口
     :numbered:
@@ -75,6 +83,13 @@
 
     GroveModules/Grove_OLED128x64Module
     GroveModules/Grove_UltrasonicDistanceMeasuringModule
+
+
+.. toctree::
+    :caption: 物联网(IoT)项目
+    :numbered:
+
+    IoT_Projects/IoT_Project1_PairedControl
 
 
 .. toctree::
