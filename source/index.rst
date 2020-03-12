@@ -68,10 +68,12 @@
     extension/extension_i2s
     extension/extension_sdtf
 
+
 .. toctree::
     :caption: Grove接口模块
     :numbered:
 
+    GroveModules/Grove_OLED128x64Module
     GroveModules/Grove_UltrasonicDistanceMeasuringModule
 
 
