@@ -21,7 +21,7 @@ Grove接口超声波测距模块(2～400cm)
 给出的超声波传播时间乘以超声波在空气中的传播速度(即340m/s)，我们将得到这束超声波的传播路程，这个路程的一半正好就是
 超声波传感器与障碍物之间的距离。我们用下图解释超声波是如何测量“传感器与障碍物之间距离”。
 
-.. image:: ../_static/images/GroveModules/UltrasonicDGrove_S16_UltrasonicDistanceMeasuringModuleistanceModule_2.jpeg
+.. image:: ../_static/images/GroveModules/Grove_S16_UltrasonicDistanceMeasuringModule/UltrasonicDistanceModule_2.jpg
     :align: center 
 
 
