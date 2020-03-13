@@ -57,6 +57,11 @@
     :numbered:
 
     BlueTooth/BlueTooth_intro
+    BlueTooth/iBeacon
+    BlueTooth/BleKeyboard
+    BlueTooth/BleMouse
+    BlueTooth/Blue2Serial
+
 
 
 .. toctree::
@@ -94,9 +99,9 @@
     GroveModules/Grove_A11_3WAudioAmplifierModule
     GroveModules/Grove_A12_RelayModule
     GroveModules/Grove_A13_NMosSiwtchModule
-    //GroveModules/Grove_A14_DCMotorDriverModule
-    //GroveModules/Grove_A15_MiniFanDriverModule
-    //GroveModules/Grove_A16_I2C_2MotorDriverModule
+    GroveModules/Grove_A14_DCMotorDriverModule
+    GroveModules/Grove_A15_MiniFanDriverModule
+    GroveModules/Grove_A16_I2C_2MotorDriverModule
     GroveModules/Grove_A17_I2C_16xServoModule
 
     GroveModules/Grove_D1_LEDx10BarModule
