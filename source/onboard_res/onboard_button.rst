@@ -13,7 +13,6 @@ LinkIoT板上有两个按钮：1)复位按钮； 和 2)用户可编程按钮
 LinkIoT板上的用户可编程按钮与ESP32的GPIO38引脚连接，被按下时为低电平。电路原理如下图，
 
 .. image:: ../_static/images/onboard_res/onboard_button/usrButton.jpeg
-    :scale: 25%
     :align: center
 
 使用LinkIoT板载的可编程按钮有两种方法，

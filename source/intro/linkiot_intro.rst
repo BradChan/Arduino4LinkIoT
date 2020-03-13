@@ -14,7 +14,6 @@ LinkIoT旨在为初学编程者提供一种快捷的智能物联传感系统构�
 
 
 .. image:: ../_static/images/intro/LinkIoT-Pins.jpg
-   :scale: 100 %
    :align: center
 
 .. note::
@@ -67,13 +66,11 @@ LinkIoT旨在为初学编程者提供一种快捷的智能物联传感系统构�
 .. rubric:: LinkIoT硬件架构
 
 .. image:: ../_static/images/intro/LinkIoT-structure.png
-    :scale: 150%
     :align: center 
 
 .. rubric:: LinkIoT尺寸
 
 .. image:: ../_static/images/intro/LinkIoT-size.png
-    :scale: 150%
     :align: center 
 
 .. rubric:: `LinkIoT购买链接`_

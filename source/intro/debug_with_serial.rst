@@ -8,7 +8,6 @@
 LinkIoT的程序下载端口在电脑端也是一个串口设备，使用Arduino IDE自带的串口监视器、串口绘图仪等功能，我们很容易知道程序执行到那个语句，再根据程序执行结果的现象，能够帮助我们排查程序逻辑问题，甚至硬件问题。
 
 .. image:: ../_static/images/intro/debug_withSerial/openPort.jpeg
-    :scale: 60%
     :align: center 
 
 当然，这需要我们修改自己的程序才能实现，在程序中增加一些"输出信息到串口监视器"的语句。
@@ -43,7 +42,6 @@ LinkIoT的程序下载端口在电脑端也是一个串口设备，使用Arduino
 当LED指示灯被熄灭时，我们输出一个字符串。然后我们将程序编译、下载到LinkIoT板上，下载完毕后打开Arduino IDE的"工具" -> "串口监视器"窗口，你将会看到：
 
 .. image:: ../_static/images/intro/debug_withSerial/monitorSerial.jpeg
-    :scale: 60%
     :align: center 
 
 使用串口通讯时，波特率是非常重要的参数，必须确保通讯双方的波特率完全相同。

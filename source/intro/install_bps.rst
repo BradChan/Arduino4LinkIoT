@@ -14,13 +14,11 @@
 https://www.ezaoyun.com:8888/hardware/linkiot/package_linkiot_index.json
 
 .. image:: ../_static/images/intro/install_bps/addBoardWebpage1.jpeg
-    :scale: 60%
     :align: center 
 
 如果已经在使用其他Arduino开发板，只是将新增一行，不必覆盖其他开发板管理器网址：
 
 .. image:: ../_static/images/intro/install_bps/addBoardWebpage2.jpeg
-    :scale: 60%
     :align: center 
 
 安装LinkIoT板级支持包
@@ -30,33 +28,28 @@ https://www.ezaoyun.com:8888/hardware/linkiot/package_linkiot_index.json
 首先，我们需要打开Arduino IDE的“工具” -> “开发板xx” -> "开发板管理器"窗口：
 
 .. image:: ../_static/images/intro/install_bps/boardManager1.jpeg
-    :scale: 50%
     :align: center 
 
 每次打开“开发板管理器”窗口时，Arduino IDE都会创建可用开发板的索引。这一步Arduino IDE需要下载一些文件，
 因此需要你耐心等待片刻(等待时间取决于网速)。
 
 .. image:: ../_static/images/intro/install_bps/boardManager2.jpeg
-    :scale: 50%
     :align: center 
 
 当Arduino IDE创建好可用开发板索引之后，我们可以在开发板搜索栏中输入"LinkIoT"，快速找到这个开发板的板级
 支持包，选择一个版本后，点击安装即可。
 
 .. image:: ../_static/images/intro/install_bps/boardManager3.jpeg
-    :scale: 50%
     :align: center 
 
 LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由你的网速决定。
 
 .. image:: ../_static/images/intro/install_bps/boardManager4.jpeg
-    :scale: 50%
     :align: center 
 
 当我们安装完毕后，你将会看到这个开发板的支持包被Arduino IDE标注为“INSTALLED”。
 
 .. image:: ../_static/images/intro/install_bps/boardManager5.jpeg
-    :scale: 50%
     :align: center 
 
 选择使用LinkIoT板
@@ -66,7 +59,6 @@ LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由
 现在可以选择使用LinkIoT板。
 
 .. image:: ../_static/images/intro/install_bps/SeceltBoard.jpeg
-    :scale: 50%
     :align: center 
 
 .. note:: 
@@ -80,7 +72,6 @@ LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由
 由于LinkIoT标准版没有8MB PSRAM，配置选项“PSRAM:”应选择“Disabled”。
 
 .. image:: ../_static/images/intro/install_bps/PSRAMDisable.jpeg
-    :scale: 50%
     :align: center 
 
 .. note:: 
@@ -94,6 +85,5 @@ LinkIoT的板级支持包大约35MB，需要一些时间下载。具体时间由
 的"PSRAM:"选项配置为“Enabled”时才能启用。
 
 .. image:: ../_static/images/intro/install_bps/PSRAMEnable.jpeg
-    :scale: 50%
     :align: center 
 

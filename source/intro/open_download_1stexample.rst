@@ -7,7 +7,6 @@
 首次打开Arduino IDE时，你将会看到一个默认的空程序框架。
 
 .. image:: ../_static/images/intro/download_1stexample/firstOpenArduino.jpeg
-    :scale: 60%
     :align: center 
 
 如果我们熟悉C/C++语言的编程环境，但第一次使用Arduino IDE，你会觉得有点怪！
@@ -20,11 +19,9 @@
 首次使用Arduino IDE或LinkIoT时，建议打开LinkIoT的示例程序，然后编译并下载程序到LinkIoT板上执行，如果看到期望的现象，说明我们之前的Arduino安装和配置都是正确的。
 
 .. image:: ../_static/images/intro/download_1stexample/open1example.jpeg
-    :scale: 50%
     :align: center 
 
 .. image:: ../_static/images/intro/download_1stexample/openBlinkLED.jpeg
-    :scale: 60%
     :align: center 
 
 示例程序的源码如下。如果你看不到这个示例的源码，可以用复制-粘贴的形式自己创建这个示例程序。
@@ -58,20 +55,17 @@
 Arduino IDE也会自动列出可用的串行端口。
 
 .. image:: ../_static/images/intro/download_1stexample/listPorts.jpeg
-    :scale: 60%
     :align: center 
 
 正确选择LinkIoT的程序下载端口之后，我们就可以将本示例程序编译、下载到LinkIoT板上并自动执行，观察LinkIoT的执行结果是否与想象的一致。
 点击Arduino IDE的"上传"按钮，Arduino IDE首先根据我们的配置信息开始编译本示例程序。
 
 .. image:: ../_static/images/intro/download_1stexample/compilerExample.jpeg
-    :scale: 60%
     :align: center 
 
 编译完毕后，Arduino IDE将自动将本示例程序下载到LinkIoT板的ROM中，最后再复位CPU，让CPU开始执行我们的程序。
 
 .. image:: ../_static/images/intro/download_1stexample/downloadExample.jpeg
-    :scale: 60%
     :align: center 
 
 此时，如果我们能看到LinkIoT的蓝色/绿色LED指示灯以1s为周期闪烁。这说明我们已经将Arduino IDE和USB驱动等都安装和配置完毕。

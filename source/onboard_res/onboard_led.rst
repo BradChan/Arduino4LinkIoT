@@ -5,13 +5,11 @@
 ===============================
 
 .. image:: ../_static/images/onboard_res/onboard_led/onboard_led.png
-    :scale: 25%
     :align: center
 
 ()
 
 .. image:: ../_static/images/onboard_res/onboard_led/usrLED.jpeg
-    :scale: 25%
     :align: center
 
 我们在 `快速向导的第5章`_ 的示例中已经能够控制LinkIoT板上的可编程LED指示灯闪烁。
