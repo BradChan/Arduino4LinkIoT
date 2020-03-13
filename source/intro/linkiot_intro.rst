@@ -5,11 +5,12 @@ LinkIoT简介
 ======================
 
 LinkIoT采用240MHz双核SoC(片上系统)——ESP32作为核心，并配置大容量ROM和SRAM，以及1.13寸彩色LCD和
-加速度传感器等丰富外设，模仿宽体DIP28封装的双排扩展接口，不仅支持面包板和杜邦线风格的系统搭建方案，
+加速度传感器等丰富外设，兼容宽体DIP28封装的双排扩展接口，不仅支持面包板和杜邦线风格的系统搭建方案，
 还配有兼容Arduino板的标准2.54mm间距的针、孔连接器，以及十余个工业级标准的4线Grove连接器。
 
 LinkIoT旨在为初学编程者提供一种快捷的智能物联传感系统构建方案，并配备丰富的软件编程环境供不同级别的
-使用者选择。
+使用者选择。LinkIoT拥有的丰富板载资源和全开放的扩展接口，并支持ESP-IDF、Arduino、MicroPython等
+编程开发环境，使得LinkIoT非常适合专业级的产品研发者快速地构建未来产品原型。
 
 
 .. image:: ../_static/images/intro/LinkIoT-Pins.jpg
@@ -66,13 +67,13 @@ LinkIoT旨在为初学编程者提供一种快捷的智能物联传感系统构�
 .. rubric:: LinkIoT硬件架构
 
 .. image:: ../_static/images/intro/LinkIoT-structure.png
-    :scale: 100%
+    :scale: 150%
     :align: center 
 
 .. rubric:: LinkIoT尺寸
 
 .. image:: ../_static/images/intro/LinkIoT-size.png
-    :scale: 100%
+    :scale: 150%
     :align: center 
 
 .. rubric:: `LinkIoT购买链接`_

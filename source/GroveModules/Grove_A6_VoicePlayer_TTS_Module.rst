@@ -1,6 +1,6 @@
 .. _Grove_UltrasonicDistanceMeasuringModule:
 
 ====================
-Grove接口超声波测距模块
+Grove接口语音播放器模块(TTS)
 ====================
 
