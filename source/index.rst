@@ -116,8 +116,8 @@
     GroveModules/Grove_S8_SoilMoistureSensorModule
     GroveModules/Grove_S9_TemperatureSwitchModule
     GroveModules/Grove_S10_LightnessSwitchModule
-    GroveModules/Grove_S11_ InfraredLineFinderModule
-    GroveModules/Grove_S12_ HallSensorModule
+    GroveModules/Grove_S11_InfraredLineFinderModule
+    GroveModules/Grove_S12_HallSensorModule
     GroveModules/Grove_S13_LightnessSensorModule
     GroveModules/Grove_S14_LoundnessSensorModule
     GroveModules/Grove_S15_InfraredDistanceMeasuringModule
