@@ -157,5 +157,32 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
 
 至此，如果你亲自动手试过上述的示例，相信你已经完全掌握超声波传感器模块的用法。
 
+如果你使用的Arduino板而不是 `BlueBox4(蓝盒4)`_ ，这就需要你根据示例2进一步了解超声波传感器模块的软件接口。示例2的源代码如下
+
+.. code-block:: 
+   :linenos:
+
+    #include <UltrasonicRangefinder_ESP.h>  
+    UltrasonicRangefinder sensor = UltrasonicRangefinder(P4, P5, 40);
+
+    void setup() {
+    Serial.begin(115200); // initialize Serial
+    Serial.println("the Example of the Ultrasonic range finder");
+    }
+
+    void loop() {
+    uint16_t valueSensorCM = sensor.MeasureInCentimeters(); // uint: cms
+    //float valueSensorInches = sensor.MeasureInInches(); // uint: inches
+    Serial.print("the Distance: ");
+    Serial.println(valueSensorCM);
+    //Serial.println(valueSensorInches);
+    delay(1000);
+    }
+
+* 第1行代码的目的是包含超声波传感器模块的库
+* 第2行代码声明一个超声波传感器实体对象，名称叫sensor，类型UltrasonicRangefinder即超声波传感器的类型，超声波传感器类型三个参数分别为：PwmOut和TrigIn引脚编号，触发电平的宽度(时间单位采用微妙)。这里我们把触发电平设置为40微妙
+* 第10、11行代码分别是以厘米(cm)和英寸(inch)为长度单位启动超声波传感器测量并返回相应单位的测量结果
+
+
 
 .. _Arduino IDE 1.8x: www.arduino.cc 
