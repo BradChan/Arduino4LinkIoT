@@ -247,9 +247,14 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
     :align: center
 
 当你为Arduino IDE环境安装好 `BlueBox4(蓝盒4)`_ 的BSP和Adafruit NeoPixelBus库之后，即可实现下面的示例。
-(将环形RGB彩灯模块连接在 `BlueBox4(蓝盒4)`_ 的(P4和P5)插座，并用USB数据线与你的电脑连接好，复制示例代码，编译并下载，即可看到该示例的效果)
 
-示例1:
+
+.. _应用示例1: https://www.ezaoyun.com/project/cppBlockly_detail/2784
+.. _易造云平台: https://www.ezaoyun.com/
+.. _Scratch: https://www.ezaoyun.com:6363/
+.. _BlueBox4(蓝盒4): http://www.hibottoy.com/blueBox.html
+
+**示例1:**
 
 .. code-block::
     :linenos:
@@ -288,3 +293,5 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
         delay(200);
     }
 
+首先，将环形RGB彩灯模块连接在 `BlueBox4(蓝盒4)`_ 的(P4和P5)插座，并用USB数据线与你的电脑连接好。
+然后，复制上面的示例代码，点击“编译并下载”按钮，即可看到该示例的效果：旋转的彩虹。
