@@ -217,7 +217,7 @@ Arduino编程彩灯模块的(C/C++)API
 
 我们希望使用环形RGB彩灯模块实现“旋转的彩虹”效果，如下视频所示
 
-.. video:: ../_static/video/GroveModules/Grove_A9_Circular11xRGBModule/Circular11xRGBModule_1.MP4
+.. image:: ../_static/video/GroveModules/Grove_A9_Circular11xRGBModule/Circular11xRGBModule_1.MP4
     :align: center 
 
 为了达成这一步，我们需要做一些准备工作。
