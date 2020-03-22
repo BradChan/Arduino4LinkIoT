@@ -87,6 +87,7 @@
     :numbered:
 
     IoT_Projects/IoT_Project1_PairedControl
+    IoT_Projects/IoT_Project2_Homekit
 
 
 .. toctree::
